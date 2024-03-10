@@ -1,74 +1,26 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/logos/JCT.png">
-  <title>Accueil - JCT</title>
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="assets/logos/JCT.png" alt="logo junior conseil triper">
-      <h1>Junior Conseil Triper</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><button onclick="window.location.href = 'index.html';">Hébergements</button></li>
-        <li><button onclick="window.location.href = 'index.html';">Activités</button></li>
-        <li><button onclick="window.location.href = 'index.html';">S'inscrire</button></li>
-      </ul>
-    </nav>
-  </header>
-  <h2> Trouver votre hébergement pour des vacances de rève</h2>
-  <h3> En plein centre ville ou en pleine nature</h3>
-  <div class="search-container">
-    <button class="pinpoint-button"><img src="assets/logos/pinpoint.png" alt = "symbole de localisation"></button>
-    <button class="city-button">Marseille, France</button>
-    <button class="search-button-submit">Rechercher</button>
-  </div>
-    <ul>
-      <button class="gras">Filtre</button>
-      <button class="roundicon"><img src="assets/logos/billet.png", alt = "billet"></button>
-      <button class="icontxt">Economique</button>
-      <button class="roundicon"><img src="assets/logos/human.png", alt = "symbole d'un humain"></button>
-      <button class="icontxt">Familial</button>
-      <button class="roundicon"><img src="assets/logos/heart.png", alt = "symbole d'un coeur"></button>
-      <button class="icontxt">Romantique</button>
-      <button class="roundicon"><img src="assets/logos/dog.png", alt = "symbole d'un chien"></button>
-      <button class="icontxt">Animaux Autorisé</button>
-    </ul>
-    <div class = "greyplane leftplane">
-      <h2>Hébergements à Marseille</h2>
-    </div>
-    <div class = "greyplane rightplane">
-      <h2>Les plus populaires<img src="assets/logos/trendicon.png" alt = "symbol bulle trend"></h2>  
-      <div class="greyplane rightplane">
-        <div class = "whitebox">
-          <img src="assets/hebergements/3.jpg" alt = "image hotel soleil matin">
-          k
-        </div>
+  <head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Plushie Shop - Kedufront</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Kedufront - Plushie Shop</h1>
       </div>
-    </div>
-  </nav>
-  <h2>Activité à Marseille</h2>
-  <footer>
-    <ul>  
-      <li><h2>A propos</h2></li>
-      <li>Fonctionnement du site</li>
-      <li>Conditions générales de vente</li>
-      <li>Données et confidentialité</li>
-    </ul>  
-    <ul>  
-      <li><h2>Nos hébergements</h2></li>
-      <li>Charte Qualité</li>
-      <li>Soumettre votre hotêl</li>
-    </ul>  
-    <ul>  
-      <li><h2>Assistance</h2></li>
-      <li>Centre d'aide</li>
-      <li>Nous contacter</li>
-    </ul> 
-  </footer>
-</body>
+      <nav>
+        <ul>
+          <li><button onclick="window.location.href = 'Panier.html';">Panier</button></li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Article</h2>
+      <div class = "greyplane">
+        <div class=".item" id = "items-container"></div>
+      </div>
+      <script src="script.js"></script>
+  </body>
 </html>
